@@ -14,8 +14,6 @@ public class StatsService {
     public int avg(int[] monthlySales) {
         int avg = 0;
         int sum = sum(monthlySales);
-        for (int monthlySale : monthlySales) {
-        }
         avg = sum / monthlySales.length;
         return avg;
     }
